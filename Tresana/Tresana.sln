@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tresana.Data", "Tresana.Data\Tresana.Data.csproj", "{72E0AFE4-15C5-46C1-9C77-3FEF59811FAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tresana.Data.DataAccess", "Tresana.Data.DataAccess\Tresana.Data.DataAccess.csproj", "{4F2D4B2E-EB6F-4975-9573-E44B0326B141}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tresana.Web.Api", "Tresana.Web.Api\Tresana.Web.Api.csproj", "{02E2AE96-94EB-49FE-9829-0DDFD72E70A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72E0AFE4-15C5-46C1-9C77-3FEF59811FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E0AFE4-15C5-46C1-9C77-3FEF59811FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E0AFE4-15C5-46C1-9C77-3FEF59811FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E0AFE4-15C5-46C1-9C77-3FEF59811FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F2D4B2E-EB6F-4975-9573-E44B0326B141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F2D4B2E-EB6F-4975-9573-E44B0326B141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F2D4B2E-EB6F-4975-9573-E44B0326B141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F2D4B2E-EB6F-4975-9573-E44B0326B141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E2AE96-94EB-49FE-9829-0DDFD72E70A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E2AE96-94EB-49FE-9829-0DDFD72E70A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E2AE96-94EB-49FE-9829-0DDFD72E70A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E2AE96-94EB-49FE-9829-0DDFD72E70A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
