@@ -13,7 +13,7 @@ namespace Tresana.Data.DataAccess.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201604060011540_init"; }
+            get { return "201609072241310_init"; }
         }
         
         string IMigrationMetadata.Source
