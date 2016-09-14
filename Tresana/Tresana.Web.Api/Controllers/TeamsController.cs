@@ -102,6 +102,21 @@ namespace Tresana.Web.Api.Controllers
             return Ok(team);
         }
 
+        [Route("api/teams/{id}/users")]
+        public IHttpActionResult AddUserToTeam(int id, User user)
+        {
+            Team team = db.Teams.Find(id);
+            if (team == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                team.Members.Add(user);
+                db.SaveChanges();
+                return Ok();
+            }
+        }
         protected override void Dispose(bool disposing)
         {
             if (disposing)
